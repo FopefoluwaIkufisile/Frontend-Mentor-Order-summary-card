@@ -94,6 +94,13 @@ body {
     color: var(--Bright-blue);
     font-weight: bold;
 }
+#change:hover{
+    color: hsl(245, 75%, 52%, 0.5);
+    text-decoration: none;
+}
+#cancel:hover{
+ color: var(--Dark-blue);
+}
 #proceed{
     background-color: var(--Bright-blue);
     color: white;
@@ -105,6 +112,9 @@ body {
     padding: 15px 0;
     border-radius: 10px;
     cursor: pointer;
+}
+#proceed:hover{
+  background-color: hsl(245, 75%, 52%, 0.5);
 }
 #cancel{
     text-decoration: none;
